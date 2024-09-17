@@ -1,0 +1,22 @@
+:root{
+    --theme-red: #B03426;
+    --theme-yellow: #F3C96F;
+    --theme-blue: #2C4C99;
+    --theme-green: #567D46;
+    --theme-gray: #6B757D;
+    --theme-purple: #4164c7;
+    --theme-brown: #8C593B;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+@media screen and (max-width: 1281px){
+    section{
+        padding-top: 100px !important;
+    }
+}

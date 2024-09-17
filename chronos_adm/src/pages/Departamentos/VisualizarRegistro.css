@@ -1,0 +1,34 @@
+#perfil{
+    padding: 30px 50px;
+    width: -webkit-fill-available;
+}
+#perfil .card-body{
+    padding: 20px 30px;
+}
+.perfil-image {
+    text-align: center;
+    padding-top: 20px;
+}
+.perfil-image svg{
+    font-size: 200px;
+}
+.dados-perfil{
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+.dados-perfil label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+.data-registro{
+    align-content: center;
+}
+.data-atualizacao{
+    align-content: center;
+}
+.group-buttons{
+    justify-content: end;
+    display: flex;
+    gap: 15px;
+}

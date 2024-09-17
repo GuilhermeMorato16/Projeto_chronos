@@ -1,0 +1,33 @@
+#registros{
+    padding: 30px 50px; 
+    width: -webkit-fill-available;
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+td svg{
+    font-size: 20px;
+}
+.breadcrumb{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: baseline;
+}
+.breadcrumb svg{
+    font-size: 23px;;
+    margin-top: -5px;
+}
+h6{
+    font-size: 20px;
+}
+h6 a{
+    color: var(--theme-blue);;
+    transition: 300ms all ease-in;
+}
+h6 a:hover{
+    color: var(--theme-purple);
+}
+h6.active{
+    text-decoration: underline;
+    cursor: default;
+}

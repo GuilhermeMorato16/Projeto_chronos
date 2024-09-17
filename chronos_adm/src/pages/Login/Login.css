@@ -1,0 +1,89 @@
+.login{
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.bg-login{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--theme-blue);
+    clip-path: circle(00% at 50% 50%);
+    transition: 1s;
+}
+.login #bemvindo{
+    color: white;
+}
+.login h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 3rem;;
+    
+}
+#bemvindo{
+    transition: 0.8s;
+    background-color: var(--theme-blue);
+    padding: 10vh 50px;
+    border-radius: 30px;
+    transition: 300ms;
+    clip-path: circle(100% at 50% 50%);
+}
+
+#login button{
+    padding: 10px 15px;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 300ms;
+    color: var(--theme-blue);
+}
+#formLogin button{
+    background: var(--theme-blue) !important;
+    color: white !important
+}
+#formLogin button:hover{
+    background: var(--theme-purple) !important;
+}
+#bemvindo.fazerLogin {
+    clip-path: circle(0% at 50% 50%);
+}
+#formLogin{
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    padding: 70px 30px;
+    border-radius: 15px;
+    opacity: 0%;
+    transition: 1s;
+    box-shadow: rgba(185, 185, 185, 0.1) 0px 4px 16px, rgba(255, 255, 255, 0.05) 0px 8px 32px;
+}
+#formLogin h2{
+    color: var(--theme-blue);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 60px;
+}
+#formLogin label{
+    color: var(--theme-blue);
+    font-size: 18px;
+    font-weight: 500;
+}
+#formLogin input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#formLogin form, #formLogin label{
+    display: flex;
+    flex-direction: column;
+    
+}

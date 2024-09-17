@@ -1,0 +1,68 @@
+#sidebar{
+    max-width: 18vw;
+    background-color: var(--theme-blue);;
+    position: relative;
+    padding: 20px ;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+#sidebar h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+ ul{
+    list-style: none;
+    padding: 0;
+}
+ ul li{
+    font-size: 25px;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 10px;
+    align-items: baseline;
+}
+ ul li ul{
+    height: 0;
+    transition: 300ms;
+    padding-left: 25px;
+}
+ ul li.aberto ul{
+    height: 80px;
+}
+ ul li ul li{
+    font-size: 22px;
+    padding-left: 10px;
+    transition: 300ms;
+    margin-bottom: 5px;
+    position: relative;
+ 
+}
+ ul li ul li:hover{
+    padding-left: 5px;
+}
+#sidebar a{
+    color: white;
+}
+@media screen and (max-width: 1281px){
+    #sidebar{
+        display: none !important;
+    }
+}
+@media screen and (min-width: 1282px){
+    nav{
+        display: none !important;
+    }
+}
+nav{
+    background-color: var(--theme-blue);
+}
+nav h2 a{
+    color: white ;
+}
+nav .navbar-toggler-icon{
+    filter: invert(1);
+}
